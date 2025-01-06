@@ -53,22 +53,10 @@ b: Why is this city’s average profit so low?
 ## Data Sourcing:
 Find the link () to the dataset as provided by Digitaley Drive. This dataset was extracted from the web as an Excel file, and processed in Power BI. It includes: 
 
-
+Web Extraction       |   Web Extraction into PBI
 :-------------------:|:----------------------------:
-
-![]()                | ![]()
-
-![]()
-
-
-
-
-
-
-
-
-
-
+![](Web_extract.png) |![](Web_extract_to_PBI.png)          
+ 
 •	Orders Table: 51,290 rows, 24 columns
 
 •	People Table: 1,000 rows, 2 columns
@@ -81,13 +69,19 @@ The extracted dataset was preprocessed in Power BI's Power Query Editor to ensur
 1.	Error detection and validation confirmed that columns were error-free, with no duplicates, and accurate data types and formats.
 
 2.	Six irrelevant columns (Ship Date, Ship Mode, Segment, Postal Code, Market, and Order Priority) were removed from the Orders table.
+	
+Deleted Columns 1         |   Deleted Column 2
+:------------------------:|:----------------------------:
+![](Deleted_columns1.png) |![](Deleted_columns2.png)
 
-3.	“United States” was replaced with the “United States of America” to align with the imported world map details.
+ 
 
-4.	DAX functions were utilized to create measures for tracking Key Performance Indicators (KPIs).
+4.	“United States” was replaced with the “United States of America” to align with the imported world map details.
 
-5.	A calendar table was created for enhanced time-based analysis.
+5.	DAX functions were utilized to create measures for tracking Key Performance Indicators (KPIs).
 
-6.	Based on the project objective, only the Orders Table, transformed and renamed 'Analyzed Orders Data', was deemed relevant for analysis
+6.	A calendar table was created for enhanced time-based analysis.
+
+7.	Based on the project objective, only the Orders Table, transformed and renamed 'Analyzed Orders Data', was deemed relevant for analysis
 
 
