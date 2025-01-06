@@ -53,10 +53,10 @@ b: Why is this city’s average profit so low?
 ## Data Sourcing:
 Find the link () to the dataset as provided by Digitaley Drive. This dataset was extracted from the web as an Excel file, and processed in Power BI. It includes: 
 
-Web Extraction       |   Web Extraction into PBI
-:-------------------:|:----------------------------:
-![](Web_extract.png) |![](Web_extract_to_PBI.png)          
- 
+Web Extraction       |   Web Extraction into PBI  
+:-------------------:|:--------------------------:
+![](Web_extract.png) |![](Web_extract_to_PBI.png) 
+
 •	Orders Table: 51,290 rows, 24 columns
 
 •	People Table: 1,000 rows, 2 columns
@@ -70,18 +70,35 @@ The extracted dataset was preprocessed in Power BI's Power Query Editor to ensur
 
 2.	Six irrelevant columns (Ship Date, Ship Mode, Segment, Postal Code, Market, and Order Priority) were removed from the Orders table.
 	
-Deleted Columns 1         |   Deleted Column 2
-:------------------------:|:----------------------------:
-![](Deleted_columns1.png) |![](Deleted_columns2.png)
+Deleted Columns1          |   Deleted Columns2        |  Deleted Columns3
+:------------------------:|:-------------------------:|:----------------:
+![](Deleted_columns1.jpg) |![](Deleted_columns2.jpg)  |![](Deleted_columns3.jpg)
 
+3.	“United States” was replaced with the “United States of America” to align with the imported world map details.
+
+United States Replaced    |  United States of America   
+:------------------------:|:--------------------:
+![](US_replaced.png)      |![](Us_replaced2.png)  
+
+4.	DAX functions were utilized to create measures for tracking Key Performance Indicators (KPIs).
+   
+  Total Customers         |  Total Profit        
+:------------------------:|:--------------------:
+![](Total_customers.jpg)  |![](Total_profit.jpg) 
+
+5.	A calendar table was created for enhanced time-based analysis.
+    ![](Calender_table.png)
+
+6.	Based on the project objective, only the Orders Table, transformed and renamed 'Analyzed Orders Data', was deemed relevant for analysis.
+
+## Data Modelling:
+ A star schema was implemented with the "Analyzed Orders Data" table as the fact table and the Calendar Table as a supporting dimension. Relationships were created between these tables to enable dynamic time-based filtering and insight.
+ ![](Data_model.png)
  
+## Analysis and Visualization: 
+It features four pages highlighting trends, product performance, and profitability insights.
 
-4.	“United States” was replaced with the “United States of America” to align with the imported world map details.
 
-5.	DAX functions were utilized to create measures for tracking Key Performance Indicators (KPIs).
-
-6.	A calendar table was created for enhanced time-based analysis.
-
-7.	Based on the project objective, only the Orders Table, transformed and renamed 'Analyzed Orders Data', was deemed relevant for analysis
+	
 
 
