@@ -96,7 +96,25 @@ United States Replaced    |  United States of America
  ![](Data_model.png)
  
 ## Analysis and Visualization: 
-It features four pages highlighting trends, product performance, and profitability insights.
+It features four pages highlighting trends, product performance, and profitability insights across four years.
+
+### Homepage:
+ ![](Homepage_image.png)
+ 
+1: The Homepage serves as the central navigation hub, featuring button links to the Trend Analysis, Product Analysis, and Profit Analysis pages. A global map visual displays key metrics for 147 countries.
+
+2: Hovering over any country reveals, via Power BI Tooltips, the total profit, total sales, total quantity sold, and profit breakdown by three major product categories over the past four years.
+
+3: Region and Year/Month slicers enable dynamic filtering by region, year, or month, providing users with tailored views of the data.
+
+4: Users can interact with the map and filters to identify performance patterns, analyze profitability trends, and drill into specific regions or periods for deeper insights.
+
+### Trend Analysis:
+The Trend Analysis page provides in-depth insights into sales, profit, and quantity trends over time, allowing users to monitor performance patterns and identify areas of growth or decline.
+ ![](Trend_analysis.png)
+
+
+
 
 
 	
