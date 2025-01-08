@@ -97,6 +97,7 @@ United States Replaced    |  United States of America
  
 ## Analysis and Visualization: :flashlight: :bulb:
 It features four pages highlighting trends, product performance, and profitability insights across four years.
+You can interact with the report [here](https://app.powerbi.com/groups/me/reports/256c1e36-4388-4700-ad88-7b90c7756530?ctid=a24d3224-154f-4113-b5df-49523365c389&pbi_source=linkShare&bookmarkGuid=fcf2a992-8de5-4f11-84ae-9d608f0f4622)
 
 
 ### Homepage: :world_map: 
