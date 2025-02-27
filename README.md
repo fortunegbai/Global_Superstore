@@ -98,6 +98,7 @@ United States Replaced    |  United States of America
 ## Analysis and Visualization: :flashlight: :bulb:
 It features four pages highlighting trends, product performance, and profitability insights across four years.
 
+You can view the interactive report [here](https://app.powerbi.com/view?r=eyJrIjoiMTdjNGJmZjEtZmNhNy00YTg2LWJlZDQtZTA1M2M1OWI3N2NkIiwidCI6ImMwMTE3M2VkLTM2NWEtNGVmMS1iODMyLWNkNTkzYWJmMDU0ZSJ9&chromeless=true&navContentPaneEnabled=false)
 
 ### Homepage: :world_map: 
  ![](Homepage_image.png)
